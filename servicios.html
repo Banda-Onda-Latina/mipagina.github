@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios-Banda Onda Latina</title>
+    <link rel="stylesheet" href="css/servicios.css">
+</head>
+<body>
+  <header>
+    <img src="img/logo.jpg" alt="logo" width="100px" height="100px">
+    <h1>Banda Onda Latina</h1>
+    <h2>La chevesima de Luis Punina</h2>
+    <nav>
+      
+      <a href="index.html">Principal</a>
+  </nav>
+  </header>  
+  <main>
+      <section id="servicios">
+          <h2>🎉 Nuestros Servicios</h2>
+          <p>¡Ponle ritmo y alegría a tu evento con la mejor música en vivo! Contamos con experiencia en todo tipo de celebraciones:</p>
+          <ul>
+              <li>🎶 Bodas</li>
+              <li>🎉 Cumpleaños</li>
+              <li>🥂 Fiestas empresariales</li>
+              <li>🎊 Bautizos y primeras comuniones</li>
+              <li>🎤 Eventos privados y conciertos</li>
+              <li>⚽ Eventos deportivos</li>
+              <li>🕺 Discotecas y bares</li>
+              <li>🎺 Festivales y ferias</li>
+          </ul>
+
+          <h3>📌 ¿Qué incluye nuestro servicio?</h3>
+          <ul>
+              <li>🎵 Música en vivo con repertorio variado (cumbia, sanjuanitos, salsa, merengue y más).</li>
+              <li>🕺 Baile y participación con el público.</li>
+          </ul>
+
+          <h3>📲 ¿Quieres más información?</h3>
+          <p class="otro-parrafo">Haz clic en el botón y contáctanos por WhatsApp para consultar disponibilidad y precios.</p>
+
+          <a href="https://wa.me/593939886323" target="_blank" class="whatsApp-button">
+              <button>📲 Consultar por WhatsApp</button>
+          </a>
+      </section>
+<button id="miBoton">Click para ver galeria</button>
+  </main>
+  <footer>
+    <div class="footer-copyright">
+      <p>&copy; 2025 Banda Onda Latina. Todos los derechos reservados.</p>
+  </div>
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded',function(){
+        const boton=document.getElementById('miBoton');
+    if(boton){
+     boton.addEventListener ('click',function(){
+        window.location.href="galeria.html";   
+     })  
+    }
+    });
+  </script>
+</body>
+</html>
