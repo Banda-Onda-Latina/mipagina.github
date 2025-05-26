@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/* Importar la fuente Montserrat desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+/*Estilos para la pagina de servicios*/
+body{
+    font-family:'Times New Roman,serif';
+    background-color:white;
+}
+header img {
+border-radius:50%;
+}
+header{
+    font-family:'Poppins', sans-serif; /* Usar una fuente moderna */
+    display:flex;
+    background-color:#7aac88;
+    color:white;
+    padding:10px;
+    align-items:center;
+}
+header h1{
+font-size:1.2em;
+}
+header h2{
+    font-size:1.0em;
+    margin-top:35px;
+    margin-left:10px;
+    position:relative;
+   top:10px;
+}
+/*Estilos del boton nav*/
+header nav {
+    display: flex;
+    margin-left: auto;
+margin-top:20px; /*altura del boton pricipal*/
+}
+header nav a{    
+text-decoration:underline;
+color:white;
+font-size:18px;/*El tamaño de letra que es la letra PRINCIPAL*/
+padding:9px 4px;/*El primer valor representa el espacio en el arriba y en el abajo del elemento*/
+/*El segundo valor representa el espacio a la izquierda y a la derecha del element*/
+border-radius:29px;
+margin-left:15px;
+}
+header nav a:hover{
+    background-color:#ddcabd;
+}
+
+/*Estilos para el contenido main*/
+main {
+font-family:serif,sans-serif,monospace;/*Tipo de letras del main*/
+padding:0px;
+border-radius:0px;
+box-shadow:0 4px 8px rgba(0, 0,0,0,1);
+text-align:center;
+margin:0 auto;
+color:#333333;
+background-color:#f5f5f5;
+margin-bottom: 15px;/*ancho inferor del main*/
+}
+
+main h2{
+color:rgb(33, 77, 55);
+font-family:'Courier New', Courier, monospace;
+font-size:20px;
+}
+main p{
+    max-width: 600px;
+    margin: 0 auto;
+    line-height:1.6;
+    font-size: 16px;
+    color:rgb(113, 115, 111);
+    font-family:'Courier New', Courier, monospace; 
+    margin-bottom:30px;
+
+
+}
+ul{
+    
+    justify-content: center;
+}
+li{
+    transition: transform 0.3s ease-in-out; /* Transición para el efecto */
+    opacity: 0; /* Comienza invisible */
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Animación de aparición y movimiento */
+li {
+    animation: moveUp 1s ease-in-out forwards; /* Se aplicará la animación moveUp */
+    opacity: 1; /* Hacer que los elementos sean visibles después de la animación */
+}
+li:nth-child(1) {
+    animation-delay: 0.1s;
+}
+li:nth-child(2) {
+    animation-delay: 0.2s;
+}
+li:nth-child(3) {
+    animation-delay: 0.2s;
+}
+li:nth-child(4) {
+    animation-delay: 0.2s;
+}
+li:nth-child(5) {
+    animation-delay: 0.2s;
+}
+li:nth-child(6) {
+    animation-delay: 0.2s;
+}
+li:nth-child(7) {
+    animation-delay: 0.2s;
+}
+li:nth-child(8) {
+    animation-delay: 0.2s;
+}
+/* Definir la animación "moveUp" */
+@keyframes moveUp {
+    0% {
+        transform: translateY(30px); /* Comienza desplazado hacia abajo */
+        opacity: 0; /* Comienza invisible */
+    }
+    100% {
+        transform: translateY(0); /* Termina en su posición original */
+        opacity: 1; /* Se vuelve completamente visible */
+    }
+}
+main h3{
+    color:rgb(33,77,55);
+    font-family:'Courier New', Courier, monospace;
+    font-size:17px;
+    }
+ ul{
+    justify-content:center;
+ } 
+ li{
+    justify-content:center ;
+    text-align:justify;
+    display:flex;
+ } 
+  .otro-parrafo {
+color:#869f99;
+font-size: 15px;
+}
+
+/* Estilo para el botón de WhatsApp */
+.whatsApp-button button {
+    background-color: #25D366; /* Verde característico de WhatsApp */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 3px;
+    border: none;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:25px;
+}
+/* Efecto hover para el botón */
+.whatsApp-button button:hover {
+    background-color: #128C7E; /* Color verde oscuro de WhatsApp */
+}
+/* Estilos para el texto de copyright */
+.footer-copyright p {
+    
+    margin: 0; /* Eliminar márgenes para que el texto esté justo en el centro */
+    font-family: 'Courier New', Courier, monospace; /* Establecer una fuente más legible */
+}
+/* Efecto hover en el texto del footer (opcional) */
+.footer-copyright {
+color: white; /* Cambia el color del texto al verde de WhatsApp cuando se pasa el cursor */
+text-align: center;
+padding: 15px 0; /* Espaciado que esta el texto banda Onda*/
+margin-top: 10px;
+
+}
+footer {
+    background-color: #b2a298;
+    color: white;
+    padding: 1px 0; /* Espaciado dentro del footer */
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px; /* Espacio superior fuera del padding */
+}
