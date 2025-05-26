@@ -1,2 +1,2 @@
-# mipagina.github
+# mipágina.github
 mi primer página
