@@ -1,0 +1,136 @@
+header img{
+border-radius:50%;
+}
+header{
+background-color:#7aac88;
+display:flex;
+color:white;
+padding:10px;/*altura del header*/
+align-items:center;
+}
+header h1{
+  font-size:1.0em;
+  margin:0;/*espacio entre el logo hacia la derecha*/
+  padding:0;
+}
+header h2{
+    font-size:1.0em;
+    margin-top:35px;/*espacio hacia inferior de h2*/
+    margin-left:10px;/*espacio hacia el lado derecha*/
+    position:relative;
+    top:10px;
+}
+header nav{
+    margin-top:20px;/*Altura del Boton Pricipal*/
+    display:flex;
+    margin-left:auto;
+}
+header nav a{
+text-decoration:underline;
+color:white;
+font-size:18px;
+padding:9px 4px;/*4 es el espacio de boton Pri.de largo y el 9 es la altura de boton Prin*/
+border-radius:29px;
+margin-left:15px;
+}
+header nav a:hover{
+    background-color:#ddcabd;
+}
+main{
+    background-color:rgb(245, 240, 255);
+    padding-bottom:3px;/*espacio inferioe de main*/
+    margin-bottom:15px;
+    background-image: url('../img/nota-musical.png');
+    background-size: calc(30%); /* Asegura que la imagen cubra el área */
+    background-repeat: no-repeat;
+    min-height: 5px; /* Esto asegura que el fondo tendrá al menos 500px de altura */
+    margin: 0;
+    background-position: 85% 95%;  /* Mueve la imagen un 80% desde la izquierda y la mantiene centrada verticalmente */
+}
+main p{
+    margin-left: 20px;
+    font-weight: bold; /* Esto pone el texto en negrita */
+    font-size:15px;
+}
+main > h2{
+    color:#7aac88;
+    font-size:20px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+}
+main h1{
+    color:#abc2a9;
+    font-size:1.2em;
+    margin:0 auto;
+    max-width: 900px;
+    line-height: 1.6;
+}
+main  a {
+    font-size:20px;
+    color:rgb(126, 174, 126);
+    margin-left: 20px;
+    border-radius:29px;
+}
+main a:hover{
+    background-color:#f2d0ba;    
+}
+main h4{
+    margin-left:20px;
+    font-size:15px;
+
+}
+main h3{
+color:#7aac88;
+font-size:14px;
+margin-left: 20px;
+max-width: 600px;
+text-align: left;
+line-height: 1.6;
+}
+main h5{
+    margin-left: 20px; 
+}
+main h6{
+color:#7aac88;
+font-size:11px;
+}
+footer{
+    text-align:center;
+    background-color:#ddcabd;
+    color:white;
+    padding:1px 0;
+    font-size:1rem;
+    position:relative;
+    margin-top:15px;
+   
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: flex-start;
+    align-items: center;
+   text-align: left;
+  }
+
+  header img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+  }
+
+  header h1, header h2 {
+    font-size: 1em;
+    white-space: normal;
+  }
+  header nav {
+    margin: 10px 0 0 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  header nav a {
+    font-size: 14px;
+    padding: 6px 8px;
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
