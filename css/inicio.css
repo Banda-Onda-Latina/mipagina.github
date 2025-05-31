@@ -210,9 +210,9 @@ footer {
         text-align: center;
     }
     header{
-        flex-direction:column;
+        flex-direction:row;
         align-items: center;
-        text-align:center;
+        text-align:left;
     }
     header nav{
         margin-top:10px;
