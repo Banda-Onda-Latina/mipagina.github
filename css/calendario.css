@@ -1,0 +1,122 @@
+
+header{
+    margin-bottom: 15px;
+    background-color:#7aac88;
+    display:flex;
+    color:white;
+    padding:10px;
+    align-items:center;
+}
+header img{
+    border-radius:50%;
+}
+header h1{
+    font-size:1.2em;
+    margin:0;
+    padding:0;
+}
+header h2{
+    font-size:1.0em;
+    margin-top:35px;
+    margin-left:5px;
+    position: relative;
+    top:10px;
+    
+}
+header nav{
+    margin-top:20px;
+    display:flex;
+    margin-left:auto;
+}
+header nav a{
+    text-decoration:underline;
+    color:white;
+    font-size:18px;
+    padding:9px 4px;
+    border-radius:29px;
+    margin-left:15px;
+}
+header nav a:hover{
+    background-color:#ddcabd;
+}
+main{
+    width: 100%;
+   max-width: 100%;
+   margin:0 auto;
+   padding:10px;
+   box-sizing: border-box;
+}
+main,h3{
+    text-align:center;
+    font-size:12px;
+    padding-top: 2px;
+}
+main,h4{
+    text-align:center;
+    font-size:12px;
+}
+table {
+  width: 100%;
+  min-width: 600px; /* evita que el contenido se apile o se corte */
+  border-collapse: collapse;
+  margin: 10px auto;
+  border: 1px solid black;
+}
+th,td{
+    border:1px solid black;
+    padding:14px;
+    text-align:center;
+
+}
+th{
+    background-color:#b6b1b1;
+    color:#39545c;
+    font-size:12px;
+}
+footer h4{
+
+    color:#28a745;
+    font-size:12px;
+}
+footer a{
+    color: #0b7f17;
+}
+footer a:hover{
+    background-color: rgb(10, 238, 101);
+    border-radius: 20px;
+}
+footer h4{
+    font-size: 15px;
+    padding-top:10px;
+    margin-top: 10px;
+}
+footer p{
+    font-size:16px;
+}
+footer{
+    background-color:#ddcadb;
+    color:white;
+    padding:1px 0;
+    text-align:center;
+    font-size:1rem;
+    position:relative;
+    margin-top: 10px; /* espacio en la parte superior del footer*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 600px){
+    table {
+    font-size: 11px;
+    width: 100%;
+  }
+
+  th, td {
+    padding: 6px;
+    font-size: 11px;
+  }
+
+  .tabla-responsive {
+    overflow-x: auto;
+    width: 100%;
+  }
+}
