@@ -1,0 +1,102 @@
+
+header{
+    margin-bottom:15px;
+    background-color:#7aac88;
+    color:#fff;
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+header img{
+    border-radius:50%;
+}
+header h1{
+    font-size:1.0em;
+    margin:0;
+    padding:0;
+}
+header h2{
+    font-size:1.0em;
+    margin-top:35px;
+    margin-left: 5px;
+    top:10px;
+    position: relative;
+}
+header nav{
+    margin-top:20px;
+    display:flex;
+    margin-left: auto;
+}
+header nav a{
+    text-decoration: underline;
+    color:white;
+    font-size:18px;
+    padding:9px 4px;
+    border-radius:29px;
+    margin-left:15px;
+}
+header nav a:hover{
+    background-color:#ddcabd;
+}
+main {
+    flex: 1;
+    background-color: #f5f0ff;
+    padding: 4px 20px;
+}
+main h3{
+    text-align: center;
+    color:#7aac88;
+}
+/* Main content */
+main h4 {
+    color: #7aac88;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#testimonios h2 {
+    text-align: center;
+    color: #7aac88;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+blockquote {
+    background-color: #ffffff;
+    border-left: 10px solid #7aac88;
+    border-right:10px solid #7aac88;
+    padding: 15px 20px;/*15 espacio dentro de test 20 largo de espacio de tes*/
+    margin: 20px auto;/*espacio entre las dos tes, el auto hace q se ajuste al centro las tes*/
+    max-width: 700px;/*El elemento puede encogerse si el contenedor o la pantalla es más pequeña (es decir, es responsive).*/
+    font-style: italic;
+    color: #444;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+    color: #95c7a3;
+}
+/* Footer */
+footer {
+    background-color: #ddcabd;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-top:15px;/*espacio superior de header fuera de containes footer*/
+}
+@media (max-width: 600px){
+    header nav{
+        margin-top:10px;
+        margin-left:0;
+        display:flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
